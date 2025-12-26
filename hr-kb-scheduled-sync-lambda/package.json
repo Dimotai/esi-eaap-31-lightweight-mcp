@@ -1,0 +1,9 @@
+{
+  "name": "hr-kb-scheduled-sync-lambda",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.mjs",
+  "dependencies": {
+    "@aws-sdk/client-bedrock-agent": "^3.670.0"
+  }
+}
