@@ -1,0 +1,32 @@
+Aurora cluster (dev): eaap-dev-cluster-identifier
+
+DB name: hrkb
+
+Secret ARN: arn:aws:secretsmanager:us-east-1:285397596138:secret:rds-db-credentials/cluster-RFGUYNAEXCIIRD27LVJFT3PNLY/postgres/1760475271051-tSNJdk
+
+Endpoint: eaap-dev-cluster-identifier.cluster-c23s0wycopvm.us-east-1.rds.amazonaws.com
+
+Port: 5432
+
+VPC ID: vpc-049dd8a8bce409cef
+
+DB Subnet group: eaap-dev-eaapdevdbclustersubnets3a48aa20-t9eh0hp49mag
+
+VPC security groups: sg-02b301a5ddfac69fc
+
+//
+//
+
+Knowledge base name: esi-hr-kb-dev
+
+Description: HR policies and procedures (dev) for ESI HR support agent
+
+Embedding model: pick one in your region, e.g.
+
+amazon.titan-embed-text-v2:0 (typical choice)
+
+Chunking config (starting point):
+
+Chunk size: 800–1000 tokens
+
+Overlap: 100–150 tokens

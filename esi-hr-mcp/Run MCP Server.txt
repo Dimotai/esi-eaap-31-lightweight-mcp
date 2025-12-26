@@ -1,0 +1,10 @@
+$env:AWS_PROFILE = "AdministratorAccess-905418397328"   # or "eaap" if you re-logged that one
+$env:AWS_REGION  = "us-east-1"                          # or your actual Bedrock region
+$env:HR_KB_ID    = "OLRJAOAVCZ"                         # paste exact ID from Bedrock console
+
+npm start
+
+###    Browser UI:
+
+cd "C:\Users\dimot\Desktop\Career\ESI\EAAP - 31\esi-hr-mcp"
+npx @modelcontextprotocol/inspector
