@@ -1,0 +1,10 @@
+# PS Commands
+
+$env:AWS_PROFILE = "working-eaap"
+$env:AWS_REGION = "us-east-1"
+$env:AWS_SDK_LOAD_CONFIG = "1"
+
+npm run build
+npm run start:chat
+
+

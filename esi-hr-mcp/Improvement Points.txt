@@ -1,0 +1,2 @@
+JSON file that has quick metadata of each file..
+Look at GPT response (ignore 4 -- hallucination).
